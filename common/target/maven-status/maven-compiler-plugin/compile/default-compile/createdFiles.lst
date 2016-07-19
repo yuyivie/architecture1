@@ -1,0 +1,11 @@
+com\yuy\util\json\JsonHelper.class
+com\yuy\architecture1\common\vo\BaseModel.class
+com\yuy\architecture1\common\service\IBaseService.class
+com\yuy\architecture1\common\dao\BaseDAO.class
+com\yuy\pageutil\ReflectHelper.class
+com\yuy\util\format\DateFormatHelper.class
+com\yuy\pageutil\Page.class
+com\yuy\architecture1\common\service\BaseService.class
+com\yuy\architecture1\common\web\BaseWebModel.class
+com\yuy\pageutil\PagePlugin.class
+com\yuy\architecture1\common\App.class
