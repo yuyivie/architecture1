@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="cartmgr">
+    <wb-module deploy-name="front">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
@@ -7,7 +7,10 @@
         <dependent-module archiveName="common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common/common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="cartmgr"/>
-        <property name="java-output-path" value="/cartmgr/target/classes"/>
+        <dependent-module archiveName="goodsmgr-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/goodsmgr/goodsmgr">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="front"/>
+        <property name="java-output-path" value="/front/target/classes"/>
     </wb-module>
 </project-modules>

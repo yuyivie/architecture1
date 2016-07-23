@@ -1,8 +1,0 @@
-com\yuy\architecture1\customermgr\web\CustomerWebModel.class
-com\yuy\architecture1\customermgr\service\CustomerService.class
-com\yuy\architecture1\customermgr\dao\CustomerDAO.class
-com\yuy\architecture1\customermgr\Client.class
-com\yuy\architecture1\customermgr\service\ICustomerService.class
-com\yuy\architecture1\customermgr\web\CustomerController.class
-com\yuy\architecture1\customermgr\vo\CustomerQueryModel.class
-com\yuy\architecture1\customermgr\vo\CustomerModel.class
