@@ -20,5 +20,10 @@ public class OrderService extends BaseService<OrderModel,OrderQueryModel> implem
 		this.dao = dao;
 		super.setDAO(dao);
 	}
+	@Override
+	public void order(int customerUuid) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
